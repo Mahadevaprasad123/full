@@ -1,0 +1,33 @@
+Description
+
+As a customer
+
+I want to book a cab
+
+So that I can reach my destination
+
+Pre conditions:
+
+Customer should had logged in.
+
+Acceptance criteria:
+
+scenario 1: customer can successfully book a cab
+
+Given I am on booking page
+
+And I select the destination address
+
+And I click on book option
+
+Then I should get a message “booking was successful”
+
+scenario 2: customer cannot successfully book a cab
+
+Given I am on booking page
+
+And I forgot to select the destination address
+
+And I click on book option
+
+Then I should get a message “booking was unsuccessful”
